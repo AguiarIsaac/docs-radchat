@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Instalação": {
+    "message": "Tutorial - Instalação",
+    "description": "The label for category Tutorial - Instalação in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Instalação.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Tutorial - Instalação in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras teste": {
+    "message": "Tutorial - Extras teste",
+    "description": "The label for category Tutorial - Extras teste in sidebar tutorialSidebar"
+  }
+}
