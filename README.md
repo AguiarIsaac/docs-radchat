@@ -1,41 +1,60 @@
-# Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# Guia para Clone e Build do Projeto.
 
-### Installation
+Este guia irá ajudá-lo a clonar e construir e subir o projeto docs-radchat usando React e TypeScript. O docs-radchat é um projeto de documentação clara, intuitiva e visualmente atraente baseado no [Docusaurus](https://docusaurus.io/).
 
-```
-$ yarn
-```
+## Guia para clone e build da aplicação:
 
-### Local Development
+### Passo 1: Clone o Repositório do GitHub:
 
-```
-$ yarn start
-```
+- Abra o terminal ou prompt de comando;
+- Navegue até o diretório onde deseja clonar o projeto;
+- Execute o seguinte comando para clonar o repositório do GitHub:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+    git clone <URL do Repositório>
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- Substitua <URL do Repositório> pela URL do repositório do projeto Docusaurus que você deseja clonar.
 
-### Deployment
+***Obs.:*** *fazer o download do projeto também irá funcionar.*
+
+### Passo 2: Instale as Dependências:
+
+- Navegue para o diretório do projeto clonado:
+
+```bash
+    cd <nome-do-projeto>
+```
+
+- Substitua <nome-do-projeto> pelo nome do diretório do projeto clonado.
+
+- Instale as dependências do projeto executando:
+
+```bash
+    npm install
+```
+
+### Passo 3: Executando a Build do Projeto:
+
+- Para construir o projeto, execute o seguinte comando:
+
+```bash
+    npm run build
+```
 
 Using SSH:
 
-```
-$ USE_SSH=true yarn deploy
+```bash
+    $ USE_SSH=true yarn deploy
 ```
 
 Not using SSH:
-
-```
+```bash
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
+Se você estiver usando páginas do GitHub para hospedagem, este comando é uma maneira conveniente de construir o site e enviá-lo para o branch gh-pages.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Autor
+
+- [@AguiarIsaac](https://www.github.com/AguiarIsaac)
